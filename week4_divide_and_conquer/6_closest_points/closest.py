@@ -21,6 +21,28 @@ def calc_dist(p1, p2):
 
 
 def min_dist(points, points_y):
+
+    """In this problem, your goal is to find the closest pair of points among the given 𝑛 points. 
+    This is a basic primitive in computational geometry having applications in, for example, 
+    graphics, computer vision, traffic-control systems.
+
+    Problem Description
+    Given 𝑛 points on a plane, find the smallest distance between a pair of two (different) points. Recall
+    that the distance between points (𝑥1, 𝑦1) and (𝑥2, 𝑦2) is equal to sqrt[(x1 - x2)^2 + (y1 - y2)^2]
+
+    Input Format 
+    The first line contains the number 𝑛 of points. Each of the following 𝑛 lines defines a point (𝑥𝑖, 𝑦𝑖)
+
+    Constraints
+    2 ≤ 𝑛 ≤ 10^5
+    −10^9 ≤ 𝑥𝑖, 𝑦𝑖 ≤ 10^9 are integers.
+
+    Output Format
+    Output the minimum distance. The absolute value of the difference between the answer of your program and
+    the optimal value can be at most 10^−3. To ensure this, output your answer with at least four digits 
+    after the decimal point (otherwise your answer, while being computed correctly, can turn out 
+    to be wrong because of rounding issues)."""
+    
     # declare constnts for brevity
     X = 0
     Y = 1
